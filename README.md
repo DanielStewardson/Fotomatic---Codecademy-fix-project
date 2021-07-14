@@ -1,4 +1,4 @@
-# Fotomatic---Codecademy-fix-project
+# Fotomatic - Codecademy fix project
 
 Codecademy project to fix an existing site and make is responsive.
 
