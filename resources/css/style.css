@@ -35,7 +35,7 @@ html {
   }
 } */
 
-@media only screen and (max-width: 1024px) and (min-width: 760px) {
+@media only screen and (max-width: 1024px){
   .main-content {
     top: 2.5625rem;
   }
@@ -121,7 +121,7 @@ header .tablet {
  */
 
 /* tablet -----------------------------------------------------*/
-@media only screen and (max-width: 1024px) and (min-width: 760px) {
+@media only screen and (max-width: 1024px){
   header .desktop, .mobile {
     display: none;
   }
@@ -267,7 +267,7 @@ header .tablet {
 
 /*-------------------- Tablet-------------------*/
 
-@media only screen and (max-width: 1024px) and (min-width: 760px) {
+@media only screen and (max-width: 1024px) {
   #sign-up-section {
     align-items: center;
     justify-content: center;
@@ -381,7 +381,7 @@ header .tablet {
   color: #4a4a4a;
 }
 
-@media only screen and (max-width: 1024px) and (min-width: 760px) {
+@media only screen and (max-width: 1024px) {
 
   #features-section {
     padding: 1rem 1%;
