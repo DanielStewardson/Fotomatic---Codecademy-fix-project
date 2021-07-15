@@ -1,4 +1,4 @@
-# Fotomatic - Codecademy fix project
+# Fotomatic - Codecademy project - fix responsiveness
 
 Codecademy project to fix an existing site and make is responsive.
 
@@ -10,6 +10,6 @@ Project outline:
 
 
 Responses:
-- Added new nav bar layout for step between monitor and moblie
+- Added new nav bar layout for step between monitor and moblie portrait/landscape
 - Change Layout and sizes of main banner as screen scales
 - Change box sizes of cards as screen scales
