@@ -26,9 +26,16 @@ html {
 
 .image-container img {
   display: block;
+  /* max-width: 100%;  */
 }
 
-@media only screen and (max-width: 1024px) {
+/* @media only screen and (max-width: 895px) {
+  .main-content {
+    top: 2.5625rem;
+  }
+} */
+
+@media only screen and (max-width: 1024px) and (min-width: 760px) {
   .main-content {
     top: 2.5625rem;
   }
@@ -77,6 +84,17 @@ nav a {
   color: #4a4a4a;
 }
 
+/* nav .button {
+  padding: .1875rem .5rem;
+  background-color: #9dc20b;
+  line-height: 1.6;
+  color: white;
+}
+
+nav li:last-child {
+  display: none;
+} */
+
 header .icon {
   width: 1rem;
   padding-left: .75rem;
@@ -90,8 +108,20 @@ header .tablet {
   display: none;
 }
 
+/* @media only screen and (max-width: 895px) {
+  nav li:last-child {
+    display: block;
+  }
+
+  header .content {
+    padding: 1rem 1rem;
+  }
+}
+
+ */
+
 /* tablet -----------------------------------------------------*/
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1024px) and (min-width: 760px) {
   header .desktop, .mobile {
     display: none;
   }
@@ -180,6 +210,17 @@ header .tablet {
   height: 43.5rem;
 }
 
+/* #sign-up-cta {
+  position: relative;
+  top: 171px;
+  left: 10%;
+  padding: 0 5rem 2.5rem 5rem;
+  border: solid 1px #979797;
+  border-radius: 4px;
+  background-color: #9dc20b;
+}
+ */
+
 #sign-up-cta {
   padding: 0 5rem 2.5rem 5rem;
   border: solid 1px #979797;
@@ -225,7 +266,7 @@ header .tablet {
 
 /*-------------------- Tablet-------------------*/
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1024px) and (min-width: 760px) {
   #sign-up-section {
     align-items: center;
     justify-content: center;
@@ -261,6 +302,30 @@ header .tablet {
 /*-------------------- Mobile -------------------*/
 
 @media only screen and (max-width: 760px) and (orientation: portrait) {
+
+  #sign-up-section {
+    align-items: center;
+    justify-content: center;
+    height: 28rem;
+  }
+
+  #sign-up-cta {
+    position: static;
+    width: auto;
+    height: auto;
+    background-color: transparent;
+    border: none;
+    margin: 0;
+  }
+
+  #sign-up-cta .content {
+    margin-top: 0;
+  }
+
+  #sign-up-cta .email {
+    display: none;
+  }
+
   #sign-up-section {
     height: 20rem;
   }
@@ -318,7 +383,7 @@ header .tablet {
   color: #4a4a4a;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1024px) and (min-width: 760px) {
 
   #features-section {
     padding: 1rem 1%;
@@ -356,6 +421,11 @@ header .tablet {
     padding: 1.25rem 1rem 0 1rem;
   }
 }
+
+/*   .feature .content {
+    padding: 1.25rem 0 1.875rem 0;
+  }
+} */
 
 /* Filters Section */
 
@@ -429,6 +499,13 @@ header .tablet {
   background-color: #f3f3f3;
 }
 
+/* #quotes-section .content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem 1.5rem;
+} */
+
 #quotes-section .content {
   padding: 5rem 0;
 }
@@ -450,6 +527,10 @@ header .tablet {
   #quotes-section .content {
     padding: 1.875rem .625rem;
   }
+  /*  #quotes-section .content {
+    flex-flow: column;
+    padding: 1.875rem .625rem;
+  }*/
 
   #quotes-section .quote {
     font-size: 1.5rem;
@@ -480,7 +561,7 @@ footer .copyright {
   flex-grow: 1;
 }
 
-@media only screen and (min-width: 760px) and (orientation: portrait) {
+@media only screen and (max-width: 760px) and (orientation: portrait) {
   footer .content {
     font-size: .625rem;
   }
