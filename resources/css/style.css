@@ -227,6 +227,7 @@ header .tablet {
   border-radius: 4px;
   background-color: #9dc20b;
   margin-left: 100px;
+  opacity: 0.9;
 }
 
 #sign-up-cta .content {
@@ -306,12 +307,12 @@ header .tablet {
   #sign-up-section {
     align-items: center;
     justify-content: center;
-    height: 28rem;
+    height: 20rem;
   }
 
   #sign-up-cta {
     position: static;
-    width: auto;
+    width: 100%;
     height: auto;
     background-color: transparent;
     border: none;
@@ -320,14 +321,11 @@ header .tablet {
 
   #sign-up-cta .content {
     margin-top: 0;
+    width: 100%;
   }
 
   #sign-up-cta .email {
     display: none;
-  }
-
-  #sign-up-section {
-    height: 20rem;
   }
 
   #sign-up-cta h1 {
